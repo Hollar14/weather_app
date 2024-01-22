@@ -15,10 +15,10 @@ body {
 }
 
 .header h4 {
-  color: #da1e4e;
+  color: white;
   font-weight: 700;
   font-size: 2.4rem;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: poppins;
 }
 .app-main {
   min-height: 10vh;
@@ -29,17 +29,9 @@ body {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 15px;
-  background: #c0dfec; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #92fe9d,
-    #c0dfec
-  ); /* com Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #92fe9d,
-    #c0dfec
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #0093e9;
+  background: -webkit-linear-gradient(to top, #92fe9d, #c0dfec);
+  background-image: linear-gradient(160deg, #0093eb 0%, #80d0c7 100%);
 }
 .app-main > * {
   margin-bottom: 20px;
@@ -47,8 +39,9 @@ body {
 .input-box {
   width: 100%;
   background: azure;
-  color: #e4603a;
-  font-weight: 500;
+  color: #0d003f;
+  font-weight: 200;
+  font-family: poppins;
   border: none;
   font-size: 1.7rem;
   border-radius: 10px;
@@ -65,7 +58,7 @@ body {
   border-radius: 10px;
   background-color: #eff1f3;
   display: none;
-  background: linear-gradient(to top, #da1e4e, #e4603a);
+  background: #0a2351;
 }
 .location-deatils {
   font-weight: bold;
